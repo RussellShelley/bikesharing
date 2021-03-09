@@ -6,23 +6,6 @@
 
 
 
-The written analysis has the following:
-
-- Overview of the analysis: Explain the purpose of this analysis.
-Overview of the statistical analysis:
-
-- Results: Using the visualizations you have in your Tableau Story, describe the results of each visualization underneath the image.
-The purpose of the analysis is well defined. (5 pt)
-Results:
-
-There are at least seven visualizations for the NYC Citibike analysis (7 pt)
-There is a description of the results for each visualization (7 pt)
-
-
- - Summary: Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset
-Summary:
-
-There is a high-level summary of the results and two additional visualizations are suggested for future analysis (5 pt)
 
 
 ## Overview
@@ -39,12 +22,12 @@ Tableau, Pandas library, Jupyter notebook
 
 
 -  We start with a map of trip start and end locations. 
-    - These are very similar. Customers are riding back and forth between nearby locations.
+    - These maps are very similar. Customers are riding back and forth between nearby locations.
 
 ![Start/Locations](Resources/start_end.png)
 
 
-- Looking at trip duration we see the majority of trips are very short around 5-10 minutes. There are very few long rentals.
+- Looking at trip duration we see the majority of trips are very short around 5-10 minutes. There are very few long rentals. Not many are longer than 30 minutes(citi bikes single use billing period).
 
 ![Trip Duration](Resources/trip_duration.png)
 
@@ -57,7 +40,7 @@ Tableau, Pandas library, Jupyter notebook
 
 
 
-- The pie chart illustrates this. There are three times as many male users.
+- The pie chart illustrates this gender gap. Where gender is known, there are three times as many male users.
 
 ![Trips By Gender](Resources/gender_pie.png)
 
@@ -70,7 +53,7 @@ Tableau, Pandas library, Jupyter notebook
 
 ![Heatmap of Usage Gender/Time](Resources/heatmap_gender_hour.png)
 
-- This next pie chart shows that most trips are made by subscribers, not casual users.
+- This next pie chart shows that most trips are made by subscribers(~80%), not casual users. This suggests that any given user is likely to be a frequent user.
 
 ![Pie Chart of User Type](Resources/user_type_pie.png)
 
